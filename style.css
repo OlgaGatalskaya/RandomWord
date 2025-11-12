@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #0f172a, #1e1b4b, #312e81);
+}
+
+header {
+  background: linear-gradient(90deg, #111827, #1e3a8a);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+  color: #f8fafc;
+ 
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  border: none;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+#filter {
+  width: 35% !important;
+}
+
+#word {
+  min-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+
+footer{
+    height: 70px;
+}
